@@ -1,4 +1,4 @@
-name: openschool-core
+name: openschool-school
 
 on: [push]
 

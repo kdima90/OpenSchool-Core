@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>kdima90</groupId>
-	<artifactId>openschool-core</artifactId>
+	<artifactId>openschool-school</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>openschool-core</name>
-	<description>Core microservice for OpenSchool</description>
+	<description>School microservice for OpenSchool</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>
@@ -20,6 +20,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-json</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

@@ -1,4 +1,4 @@
-package kdima90.openschoolcore;
+package kdima90.openschool.school;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,7 +10,7 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 @SpringBootTest(
 		webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
 )
-class OpenschoolCoreApplicationTests {
+class OpenschoolSchoolApplicationTests {
 	@Container
 	private static PostgreSQLContainer<?> postgresqlContainer = new PostgreSQLContainer<>("postgres:16-alpine")
 			.withDatabaseName("core")
