@@ -11,4 +11,4 @@ spring:
       ddl-auto: validate
     open-in-view: false
   flyway:
-    schemas: school
+    schemas: openschool
