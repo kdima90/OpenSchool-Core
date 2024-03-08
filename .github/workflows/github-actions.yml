@@ -1,6 +1,6 @@
 name: openschool-school
 
-on: [push]
+on: [ push ]
 
 jobs:
   build:

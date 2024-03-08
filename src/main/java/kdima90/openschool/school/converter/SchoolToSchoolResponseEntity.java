@@ -7,8 +7,16 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SchoolToSchoolResponseEntity implements Converter<School, SchoolResponseEntity> {
-    @Override
-    public SchoolResponseEntity convert(School school) {
-        return new SchoolResponseEntity(school.getId(), school.getName(),school.getStreet(),school.getStreetNumber(),school.getCity(),school.getPostalCode(),school.getFederalState(),school.getLocale());
-    }
+  @Override
+  public SchoolResponseEntity convert(School school) {
+    return new SchoolResponseEntity(
+        school.getId(),
+        school.getName(),
+        school.getStreet(),
+        school.getStreetNumber(),
+        school.getCity(),
+        school.getPostalCode(),
+        school.getFederalState(),
+        school.getLocale());
+  }
 }
