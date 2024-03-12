@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitMqConfiguration {
   private final ApplicationProperties applicationProperties;
-  public static final String EXCHANGE_NAME = "openschool";
+  public static final String EXCHANGE_NAME = "openschool_school";
 
   @Bean
   public TopicExchange topicExchange() {

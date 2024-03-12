@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Locale;
 import java.util.UUID;
 import kdima90.openschool.school.request.entity.SchoolRequestEntity;
-import kdima90.openschool.school.response.SchoolResponseEntity;
+import kdima90.openschool.school.response.entity.SchoolResponseEntity;
 import kdima90.openschool.school.service.SchoolServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.mockito.BDDMockito;

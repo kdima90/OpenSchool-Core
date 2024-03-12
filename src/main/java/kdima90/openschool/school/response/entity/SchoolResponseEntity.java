@@ -1,4 +1,4 @@
-package kdima90.openschool.school.response;
+package kdima90.openschool.school.response.entity;
 
 import java.util.Locale;
 import java.util.UUID;

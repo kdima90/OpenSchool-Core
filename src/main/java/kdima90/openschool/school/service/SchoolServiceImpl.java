@@ -3,7 +3,7 @@ package kdima90.openschool.school.service;
 import kdima90.openschool.school.entity.School;
 import kdima90.openschool.school.repository.SchoolRepository;
 import kdima90.openschool.school.request.entity.SchoolRequestEntity;
-import kdima90.openschool.school.response.SchoolResponseEntity;
+import kdima90.openschool.school.response.entity.SchoolResponseEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.stereotype.Service;

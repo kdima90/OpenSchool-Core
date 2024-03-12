@@ -5,7 +5,7 @@ import static kdima90.openschool.school.configuration.RabbitMqConfiguration.EXCH
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import kdima90.openschool.school.request.entity.SchoolRequestEntity;
-import kdima90.openschool.school.response.SchoolResponseEntity;
+import kdima90.openschool.school.response.entity.SchoolResponseEntity;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;
 

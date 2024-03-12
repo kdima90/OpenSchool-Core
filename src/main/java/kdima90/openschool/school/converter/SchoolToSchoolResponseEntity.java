@@ -1,7 +1,7 @@
 package kdima90.openschool.school.converter;
 
 import kdima90.openschool.school.entity.School;
-import kdima90.openschool.school.response.SchoolResponseEntity;
+import kdima90.openschool.school.response.entity.SchoolResponseEntity;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
