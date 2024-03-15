@@ -1,4 +1,4 @@
-create table openschool.school
+create table openschool_school.school
 (
     id              uuid not null primary key,
     name            varchar(255) not null,

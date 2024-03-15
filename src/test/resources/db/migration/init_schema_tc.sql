@@ -1,1 +1,1 @@
-CREATE SCHEMA IF NOT EXISTS openschool;
+CREATE SCHEMA IF NOT EXISTS openschool_school;
